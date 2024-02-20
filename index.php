@@ -1,13 +1,19 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Empresa que viabiliza o Reaproveitamento de Alimentos">
+    <meta name="author" content="Nósz">
+    <meta name="Copyright" content="Copyright © Nósz.co 2024">
+    <meta name="keywords" content="nosz, reaproveitamento, alimentos, reaproveitamento de alimentos, app de reaproveitamento, empresa de reaproveitamento, grupo de reaproveitamento">
 
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <title>Nósz</title>
 
-    <title>Barista Cafe HTML CSS Template</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="images/favicons/site.webmanifest">
 
     <!-- CSS FILES -->
     <!--  favicon -->
@@ -34,7 +40,7 @@
             <main>
                 <nav class="navbar navbar-expand-lg">                
                     <div class="container">
-                        <a class="navbar-brand d-flex align-items-center" href="index.html">
+                        <a class="navbar-brand d-flex align-items-center" href="index.php">
                             <img src="images/coffee-beans.png" class="navbar-brand-image img-fluid" alt="Barista Cafe Template">
                             Nósz
                         </a>
@@ -136,7 +142,7 @@
                                 <h3 class="text-white mb-3">Propósito Empresarial</h3>
 
                                 <p class="text-white">
-                                    Em uma mente onde o desperdício de alimentos era uma preocupação diária, uma oportunidade de negócio surgiu do excedente de produção das pequenas empresas locais. Inspirados pela ideia de reduzir o desperdício e promover a sustentabilidade, um grupo de empreendedores criou a "Nósz".
+                                    Em uma mente onde o desperdício de alimentos é uma preocupação diária, uma oportunidade de negócio surgiu do excedente de produção das pequenas empresas locais. Inspirados pela ideia de reduzir o desperdício e promover a sustentabilidade, um grupo de empreendedores criou a "Nósz".
                                 </p>
 
                                 <p class="text-white">
@@ -259,14 +265,14 @@
                                         </div>
 
                                         <div class="border-top mt-2 pt-2">
-                                            <small>Sacola surpresa com deliciosos itens avaliados e $30,00</small>
+                                            <small>Sacola surpresa com deliciosos itens avaliados à $30,00</small>
                                         </div>
                                     </div>
 
                                     <div class="menu-block my-4">
                                         <div class="d-flex">
                                             <h6>
-                                                Texans Burguers <span class="badge ms-3">Recomendado</span>
+                                                Texas Burguer <span class="badge ms-3">Recomendado</span>
                                             </h6>
                                         
                                             <span class="underline"></span>
@@ -277,7 +283,7 @@
                                         </div>
 
                                         <div class="border-top mt-2 pt-2">
-                                            <small>Sacola surpresa com deliciosos itens avaliados e $25,00</small>
+                                            <small>Sacola surpresa com deliciosos itens avaliados à $25,00</small>
                                         </div>
                                     </div>
 
@@ -289,11 +295,11 @@
                                         
                                             <span class="underline"></span>
 
-                                            <strong class="ms-auto">$15.0</strong>
+                                            <strong class="ms-auto">$15.00</strong>
                                         </div>
 
                                         <div class="border-top mt-2 pt-2">
-                                            <small>Sacola surpresa com deliciosos itens avaliados e $20,00</small>
+                                            <small>Sacola surpresa com deliciosos itens avaliados à $20,00</small>
                                         </div>
                                     </div>
 
@@ -307,7 +313,7 @@
                                         </div>
 
                                         <div class="border-top mt-2 pt-2">
-                                            <small>Sacola surpresa com deliciosos itens avaliados e $30,00</small>
+                                            <small>Sacola surpresa com deliciosos itens avaliados à $30,00</small>
                                         </div>
                                     </div>
 
@@ -321,11 +327,11 @@
                                         
                                             <span class="underline"></span>
 
-                                            <strong class="ms-auto">$18.0</strong>
+                                            <strong class="ms-auto">$18.00</strong>
                                         </div>
 
                                         <div class="border-top mt-2 pt-2">
-                                            <small>Sacola surpresa com deliciosos itens avaliados e $28,00</small>
+                                            <small>Sacola surpresa com deliciosos itens avaliados à $28,00</small>
                                         </div>
                                     </div>
                                 </div>
@@ -350,7 +356,7 @@
                                         </div>
 
                                         <div class="border-top mt-2 pt-2">
-                                            <small>Sacola surpresa com deliciosos itens avaliados e $19,00</small>
+                                            <small>Sacola surpresa com deliciosos itens avaliados à $19,00</small>
                                         </div>
                                     </div>
 
@@ -364,7 +370,7 @@
                                         </div>
 
                                         <div class="border-top mt-2 pt-2">
-                                            <small>Sacola surpresa com deliciosos itens avaliados e $16,50</small>
+                                            <small>Sacola surpresa com deliciosos itens avaliados à $16,50</small>
                                         </div>
                                     </div>
 
@@ -378,7 +384,7 @@
                                         </div>
 
                                         <div class="border-top mt-2 pt-2">
-                                            <small>Sacola surpresa com deliciosos itens avaliados e $13,00</small>
+                                            <small>Sacola surpresa com deliciosos itens avaliados à $13,00</small>
                                         </div>
                                     </div>
 
@@ -395,13 +401,13 @@
                                         </div>
 
                                         <div class="border-top mt-2 pt-2">
-                                            <small>Sacola surpresa com deliciosos itens avaliados e $8,00</small>
+                                            <small>Sacola surpresa com deliciosos itens avaliados à $8,00</small>
                                         </div>
                                     </div>
 
                                     <div class="menu-block">
                                         <div class="d-flex">
-                                            <h6>Chocolandia</h6>
+                                            <h6>Chocolândia</h6>
 
                                             <span class="underline"></span>
 
@@ -409,7 +415,7 @@
                                         </div>
 
                                         <div class="border-top mt-2 pt-2">
-                                            <small>Sacola surpresa com deliciosos itens avaliados e $13,00</small>
+                                            <small>Sacola surpresa com deliciosos itens avaliados à $13,00</small>
                                         </div>
                                     </div>
                                 </div>
@@ -439,22 +445,21 @@
 
                                                 <div class="">
                                                     <h6 class="text-white mb-0">Sandra</h6>
-                                                    <em class="text-white"> Clientes</em>
                                                 </div>
                                             </div>
 
                                             <div class="reviews-block-info">
-                                                <p>Fiquei impressionado com a variedade de opções disponíveis na plataforma. É incrível como podemos encontrar produtos de alta qualidade e com preços acessíveis enquanto combatemos o desperdício de alimentos.</p>
+                                                <p>Fiquei impressionada com a variedade de opções disponíveis na plataforma. É incrível como podemos encontrar produtos de alta qualidade e com preços acessíveis enquanto combatemos o desperdício de alimentos.</p>
 
                                                 <div class="d-flex border-top pt-3 mt-4">
-                                                    <strong class="text-white">4.5 <small class="ms-2">Classificação</small></strong>
+                                                    <strong class="text-white">5 <small class="ms-2">Classificação</small></strong>
 
                                                     <div class="reviews-group ms-auto">
                                                         <i class="bi-star-fill"></i>
                                                         <i class="bi-star-fill"></i>
                                                         <i class="bi-star-fill"></i>
                                                         <i class="bi-star-fill"></i>
-                                                        <i class="bi-star"></i>
+                                                        <i class="bi-star-fill"></i>
                                                     </div>
                                                 </div>
                                             </div>
@@ -470,7 +475,6 @@
 
                                                 <div class="">
                                                     <h6 class="text-white mb-0">Pedro</h6>
-                                                    <em class="text-white"> Clientes</em>
                                                 </div>
                                             </div>
 
@@ -478,7 +482,7 @@
                                                 <p>Adorei a ideia de poder ajudar o meio ambiente enquanto desfruto de produtos frescos e deliciosos! A entrega foi rápida e os produtos estavam em ótimo estado.</p>
 
                                                 <div class="d-flex border-top pt-3 mt-4">
-                                                    <strong class="text-white">4.5 <small class="ms-2">Classificação</small></strong>
+                                                    <strong class="text-white">4 <small class="ms-2">Classificação</small></strong>
 
                                                     <div class="reviews-group ms-auto">
                                                         <i class="bi-star-fill"></i>
@@ -501,22 +505,21 @@
 
                                                 <div class="">
                                                     <h6 class="text-white mb-0">Olivia</h6>
-                                                    <em class="text-white"> Clientes</em>
                                                 </div>
                                             </div>
 
                                             <div class="reviews-block-info">
-                                                <p>Estou encantado com a proposta da plataforma! Os produtos que adquiri superaram minhas expectativas e o processo de compra foi simples e eficiente. Recomendo a todos que queiram fazer parte dessa mudança positiva!</p>
+                                                <p>Estou encantada com a proposta da plataforma! Os produtos que adquiri superaram minhas expectativas e o processo de compra foi simples e eficiente. Recomendo a todos que queiram fazer parte dessa mudança positiva!</p>
 
                                                 <div class="d-flex border-top pt-3 mt-4">
-                                                    <strong class="text-white">4.5 <small class="ms-2">Classificação</small></strong>
+                                                    <strong class="text-white">5 <small class="ms-2">Classificação</small></strong>
 
                                                     <div class="reviews-group ms-auto">
                                                         <i class="bi-star-fill"></i>
                                                         <i class="bi-star-fill"></i>
                                                         <i class="bi-star-fill"></i>
                                                         <i class="bi-star-fill"></i>
-                                                        <i class="bi-star"></i>
+                                                        <i class="bi-star-fill"></i>
                                                     </div>
                                                 </div>
                                             </div>
@@ -540,26 +543,53 @@
                             </div>
 
                             <div class="col-lg-6 col-12">
-                                <form action="#" method="post" class="custom-form contact-form" role="form">
+                                <form action="index.php" method="post" class="custom-form contact-form" role="form">
+
+                                <?php
+                                      
+                                    if ( isset($_POST["nome"]) && isset($_POST["email"]) && isset($_POST["mensagem"]) ) {
+                                       
+                                        $nome = $_POST["nome"];
+                                        $email = $_POST['email'];
+                                        $mensagem = $_POST['mensagem'];
+
+                                        require 'vendor/autoload.php';
+
+                                        $de = new SendGrid\Email(null, "$email");
+                                        $assunto = "Mensagem de contato";
+                                        $para = new SendGrid\Email(null, "nosztcc@gmail.com");
+                                        $conteudo = new SendGrid\Content("text/html", "$mensagem");
+                                        $mail = new SendGrid\Mail($de, $assunto, $para, $conteudo);
+
+                                        //Necessário inserir a chave
+                                        $apiKey = 'SENDGRID_API_KEY';
+                                        $sg = new \SendGrid($apiKey);
+
+                                        $response = $sg->client->mail()->send()->post($mail);
+                                        echo "<em class='text-white'>Mensagem enviada com sucesso</em>";
+
+                                    }
+
+                                ?>
 
                                 <div class="row">
                                     
                                     <div class="col-lg-6 col-12">
                                         <label for="name" class="form-label">Nome <sup class="text-danger">*</sup></label>
 
-                                        <input type="text" name="name" id="name" class="form-control" placeholder="Seu Nome" required="">
+                                        <input type="text" name="nome" id="name" class="form-control" placeholder="Seu Nome" required="">
                                     </div>
 
                                     <div class="col-lg-6 col-12">
                                         <label for="email" class="form-label">Email </label>
 
-                                        <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Seu.email@gmail.com" required="">
+                                        <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Seu email@gmail.com" required="">
                                     </div>
 
                                     <div class="col-12">
                                         <label for="message" class="form-label">Como podemos ajudar?</label>
 
-                                        <textarea name="message" rows="4" class="form-control" id="message" placeholder="Mensagem" required=""></textarea>
+                                        <textarea name="mensagem" rows="4" class="form-control" id="message" placeholder="Mensagem" required=""></textarea>
                                         
                                     </div>
                                 </div>
@@ -571,7 +601,7 @@
                             </div>
 
                             <div class="col-lg-6 col-12 mx-auto mt-5 mt-lg-0 ps-lg-5">
-                                <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11874.410960358666!2d-46.5045543622625!3d-23.45829750578397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1708235002052!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
+                                <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11874.410960358666!2d-46.5045543622625!3d-23.45829750578397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1708235002052!5m2!1spt-BR!2sbr" width="100%" height="300" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade" title="Mapa Etec"></iframe>  
                             </div>
 
                         </div>
@@ -594,19 +624,19 @@
                                 <ul class="social-icon mt-4">
                                     <li class="social-icon-item">
                                         <!--REDES SOCIAIS-->
-                                        <a href="https://www.facebook.com/profile.php?id=100012355950771" class="social-icon-link bi-facebook">
+                                        <a href="https://www.facebook.com/profile.php?id=100012355950771" class="social-icon-link bi-facebook" title="Facebook">
                                         </a>
                                     </li>
         
                                     <li class="social-icon-item">
                                         <!--REDES SOCIAIS-->
-                                        <a href="https://x.com/krlheeo" target="_new" class="social-icon-link bi-twitter">
+                                        <a href="https://x.com/krlheeo" target="_new" class="social-icon-link bi-twitter" title="X/Twitter">
                                         </a>
                                     </li>
 
                                     <li class="social-icon-item">
                                         <!--REDES SOCIAIS-->
-                                        <a href="https://wa.me/5511997385214" class="social-icon-link bi-whatsapp">
+                                        <a href="https://wa.me/5511997385214" class="social-icon-link bi-whatsapp" title="WhatsApp">
                                         </a>
                                     </li>
                                 </ul>
@@ -616,7 +646,7 @@
                                 <em class="text-white d-block mb-4">Contatos</em>
 
                                 <p class="d-flex mb-1">
-                                    <strong class="me-2">Phone:</strong>
+                                    <strong class="me-2">Telefone: </strong>
                                     <a href="tel: +55 11 99738 5214" class="site-footer-link">
                                         +55 11 9 9738 - 5214
                                     </a>
@@ -626,7 +656,7 @@
                                     <strong class="me-2">Email:</strong>
 
                                     <a href="Leonardo@Nosz.com.vc" class="site-footer-link">
-                                        Leonardo@Nosz.com.vc
+                                        Leonardo@Nosz.com.vc | nosztcc@gmail.com
                                     </a>
                                 </p>
                             </div>
@@ -637,13 +667,13 @@
 
                                 <ul class="opening-hours-list">
                                     <li class="d-flex">
-                                        <img src="C:\Users\SPO\Desktop\estudos\projetos\Nosz\images\texasburger.png" class="reviews-block-image img-fluid" alt="">
-                                        <strong class="mt-4">Texas Burguers</strong>
+                                        <img src="images/texasburger.png" class="reviews-block-image img-fluid" alt="">
+                                        <strong class="mt-4">Texas Burguer</strong>
                                     </li>
 
                                     <li class="d-flex">
-                                        <img src="C:\Users\SPO\Desktop\estudos\projetos\Nosz\images\CPS.JPG" class="reviews-block-image img-fluid" alt="">
-                                        <strong class="mt-4">Centro paula de souza</strong>
+                                        <img src="images/CPS.jpg" class="reviews-block-image img-fluid" alt="">
+                                        <strong class="mt-4">Centro Paula de Souza</strong>
                                     </li>
 
                                 </ul>
