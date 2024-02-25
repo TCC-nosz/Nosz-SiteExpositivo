@@ -1,48 +1,40 @@
 <!doctype html>
-<html lang="pt-br">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Empresa que viabiliza o Reaproveitamento de Alimentos">
-    <meta name="author" content="Nósz">
-    <meta name="Copyright" content="Copyright © Nósz.co 2024">
-    <meta name="keywords" content="nosz, reaproveitamento, alimentos, reaproveitamento de alimentos, app de reaproveitamento, empresa de reaproveitamento, grupo de reaproveitamento">
 
-    <title>Nósz</title>
+    <html lang="pt-br">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
-    <link rel="manifest" href="images/favicons/site.webmanifest">
+    <head>
 
-    <!-- CSS FILES -->
-    <!--  favicon -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Empresa que viabiliza o Reaproveitamento de Alimentos">
+        <meta name="author" content="Nósz">
+        <meta name="Copyright" content="Copyright © Nósz.co 2024">
+        <meta name="keywords" content="nosz, reaproveitamento, alimentos, reaproveitamento de alimentos, app de reaproveitamento, empresa de reaproveitamento, grupo de reaproveitamento">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <title> Nósz </title>
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="apple-touch-icon" sizes="180x180" href="imagens/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicons/favicon-16x16.png">
+        <link rel="manifest" href="imagens/favicons/site.webmanifest">
 
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,400;0,600;0,700;1,200;1,700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,400;0,600;0,700;1,200;1,700&display=swap" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+        <link href="css/vegas.min.css" rel="stylesheet">
+        <link href="css/estilosGerais.css" rel="stylesheet">
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <link href="css/bootstrap-icons.css" rel="stylesheet">
-
-    <link href="css/vegas.min.css" rel="stylesheet">
-
-    <link href="css/tooplate-barista.css" rel="stylesheet">
-
- 
-</head>
-    
-    <body>
-                
+    </head>
+        
+        <body>
+                    
             <main>
                 <nav class="navbar navbar-expand-lg">                
                     <div class="container">
                         <a class="navbar-brand d-flex align-items-center" href="index.php">
-                            <img src="images/coffee-beans.png" class="navbar-brand-image img-fluid" alt="Barista Cafe Template">
-                            Nósz
+                            <img src="imagens/logo.png" class="navbar-brand-image img-fluid" alt="Logo da Nósz"> Nósz
                         </a>
         
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,105 +43,73 @@
         
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav ms-lg-auto">
-                                <li class="nav-item">
-                                    <a class="nav-link click-scroll" href="#section_1">Início</a>
-                                </li>
-        
-                                <li class="nav-item">
-                                    <a class="nav-link click-scroll" href="#section_2">Sobre</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link click-scroll" href="#section_3">Ofertas</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link click-scroll" href="#section_4">Avaliações</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link click-scroll" href="#section_5">Contatos</a>
-                                </li>
+                                <li class="nav-item"> <a class="nav-link click-scroll" href="#inicio"> Início </a> </li>
+                                <li class="nav-item"> <a class="nav-link click-scroll" href="#sobre"> Sobre </a> </li>
+                                <li class="nav-item"> <a class="nav-link click-scroll" href="#ofertas"> Ofertas </a> </li>
+                                <li class="nav-item"> <a class="nav-link click-scroll" href="#avaliacoes"> Avaliações </a> </li>
+                                <li class="nav-item"> <a class="nav-link click-scroll" href="#contatos"> Contatos </a> </li>
                             </ul>
 
                             <div class="ms-lg-3">
-                                <a class="btn custom-btn custom-border-btn" href="reservation.html">
-                                    Reservation
-                                    <i class="bi-arrow-up-right ms-2"></i>
-                                </a>
+                                <a class="btn personalizado-btn personalizado-border-btn" href="reservation.html">  Reservation   <i class="bi-arrow-up-right ms-2"></i>  </a>
                             </div>
                         </div>
                     </div>
                 </nav>
 
 
-                <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+                <section class="inicio-section d-flex justify-content-center align-items-center" id="inicio">
 
                     <div class="container">
                         <div class="row align-items-center">
 
                             <div class="col-lg-6 col-12 mx-auto">
-                                <em class="small-text">Bem vindo</em>
+                                <em class="bem-vindo"> Bem vindo </em>
 
-                                <h1>Nósz</h1>
+                                <h1> Nósz </h1>
 
-                                <p class="text-white mb-4 pb-lg-2">
-                                    A melhor escolha para o seu dia-a-dia!
-                                </p>
+                                <p class="mb-4 pb-lg-2"> A melhor escolha para o seu dia-a-dia! </p>
 
-                                <a class="btn custom-btn custom-border-btn smoothscroll me-3" href="#section_2">
-                                    Objetivos
-                                </a>
+                                <a class="btn personalizado-btn personalizado-border-btn smoothscroll me-3" href="#sobre"> Objetivos  </a>
 
-                                <a class="btn custom-btn smoothscroll me-2 mb-2" href="#section_3">
-                                    <strong>
-                                        Cardápio
-                                    </strong>
-                                </a>
+                                <a class="btn personalizado-btn smoothscroll me-2 mb-2" href="#ofertas"> <strong> Cardápio </strong> </a>
                             </div>
 
                         </div>
                     </div>
 
-                    <div class="hero-slides"></div>
+                    <div class="inicio-slides"></div>
                 </section>
 
 
-                <section class="about-section section-padding" id="section_2">
+                <section class="sobre-section section-padding" id="sobre">
                     <div class="section-overlay"></div>
                     <div class="container">
                         <div class="row align-items-center">
 
                             <div class="col-lg-6 col-12">
                                 <div class="ratio ratio-1x1">
-                                    <video autoplay="" loop="" muted="" class="custom-video" poster="">
-                                        <source src="videos/pexels-mike-jones-9046237.mp4" type="video/mp4">
+                                    <video autoplay="" loop="" muted="" class="personalizado-video" poster="">
+                                        <source src="videos/pexels-mike-jones-9046237.mp4" type="video/mp4"> Seu navegador não suporta a tag de vídeo </video>
 
-                                        Your browser does not support the video tag.
-                                    </video>
+                                    <div class="sobre-video-info d-flex flex-column">
+                                        <h4 class="mt-auto"> Desde 2023 </h4>
 
-                                    <div class="about-video-info d-flex flex-column">
-                                        <h4 class="mt-auto">Desde 2023</h4>
-
-                                        <h4>Mudando o mundo.</h4>
+                                        <h4> Mudando o mundo. </h4>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="col-lg-5 col-12 mt-4 mt-lg-0 mx-auto">
-                                <em class="text-white">Nósz.co</em>
+                                <em> Nósz.co </em>
 
-                                <h3 class="text-white mb-3">Propósito Empresarial</h3>
+                                <h3> Propósito Empresarial </h3>
 
-                                <p class="text-white">
-                                    Em uma mente onde o desperdício de alimentos é uma preocupação diária, uma oportunidade de negócio surgiu do excedente de produção das pequenas empresas locais. Inspirados pela ideia de reduzir o desperdício e promover a sustentabilidade, um grupo de empreendedores criou a "Nósz".
-                                </p>
+                                <p> Em uma mente onde o desperdício de alimentos é uma preocupação diária, uma oportunidade de negócio surgiu do excedente de produção das pequenas empresas locais. Inspirados pela ideia de reduzir o desperdício e promover a sustentabilidade, um grupo de empreendedores criou a "Nósz". </p>
 
-                                <p class="text-white">
-                                    Esta plataforma inovadora conecta produtores locais, restaurantes e consumidores conscientes, resgatando alimentos excedentes do descarte e oferecendo-os a preços acessíveis. Rapidamente, a "Nósz" se tornou uma força na luta contra o desperdício de alimentos, inspirando uma mudança de mentalidade em relação ao consumo e à responsabilidade ambiental.
-                                </p>
+                                <p> Esta plataforma inovadora conecta produtores locais, restaurantes e consumidores conscientes, resgatando alimentos excedentes do descarte e oferecendo-os a preços acessíveis. Rapidamente, a "Nósz" se tornou uma força na luta contra o desperdício de alimentos, inspirando uma mudança de mentalidade em relação ao consumo e à responsabilidade ambiental. </p>
 
-                                <a href="#barista-team" class="smoothscroll btn custom-btn custom-border-btn mt-3 mb-4">Fundadores</a>
+                                <a href="#equipe" class="smoothscroll btn personalizado-btn personalizado-border-btn mt-3 mb-4"> Fundadores </a>
                             </div>
 
                         </div>
@@ -157,84 +117,111 @@
                 </section>
 
 
-                <section class="barista-section section-padding section-bg" id="barista-team">
+                <section class="section-padding section-bg" id="equipe">
                     <div class="container">
                         <div class="row justify-content-center">
 
                             <div class="col-lg-12 col-12 text-center mb-4 pb-lg-2">
-                                <em class="text-white">Mentes Brilhantes</em>
+                                <em> Mentes Brilhantes </em>
 
-                                <h2 class="text-white">Mudando o mundo</h2>
+                                <h2> Mudando o mundo </h2>
                             </div>
 
                             <div class="col-lg-3 col-md-6 col-12 mb-4">
-                                <div class="team-block-wrap">
-                                    <div class="team-block-info d-flex flex-column">
+                                <div class="equipe-block-wrap">
+                                    <div class="equipe-block-info d-flex flex-column">
                                         <div class="d-flex mt-auto mb-3">
-                                            <h4 class="text-white mb-0">Leonardo</h4>
+                                            <h4 class="mb-0"> Leonardo </h4>
 
-                                            <p class="badge ms-4"><em>Estratégico</em></p>
+                                            <p class="badge ms-4"> <em> Estratégico </em> </p>
                                         </div>
 
-                                        <p class="text-white mb-0">Sabores resgatados do desperdício para transformar o seu dia.</p>
+                                        <p class="mb-0"> 
+                                            <ul type="none">
+                                                <li> Liderança </li>
+                                                <li> Idealização </li>
+                                                <li> Tecnologias necessárias </li>
+                                            </ul>
+                                        </p>
                                     </div>
 
-                                    <div class="team-block-image-wrap">
-                                        <img src="images/team/portrait-elegant-old-man-wearing-suit.jpg" class="team-block-image img-fluid" alt="">
+                                    <div class="equipe-block-image-wrap">
+                                        <img src="imagens/equipe/portrait-elegant-old-man-wearing-suit.jpg" class="equipe-block-image img-fluid" alt="">
                                     </div>
                                 </div>
                             </div>
 
                             <div class="col-lg-3 col-md-6 col-12 mb-4">
-                                <div class="team-block-wrap">
-                                    <div class="team-block-info d-flex flex-column">
+                                <div class="equipe-block-wrap">
+                                    <div class="equipe-block-info d-flex flex-column">
                                         <div class="d-flex mt-auto mb-3">
-                                            <h4 class="text-white mb-0">Kawan</h4>
+                                            <h4 class="mb-0"> Kawan </h4>
 
-                                            <p class="badge ms-4"><em>Tático</em></p>
+                                            <p class="badge ms-4"> <em> Tático </em>  </p>
                                         </div>
 
-                                        <p class="text-white mb-0">Sabores resgatados do desperdício para transformar o seu dia.</p>
+                                        <p class="mb-0"> 
+                                            <ul type="none">
+                                                <li> Documentação </li>
+                                                <li> Prototipagem </li>
+                                                <li> Dev. Web </li>
+                                                <li> Pesquisa de campo </li>
+                                            </ul>
+                                        </p>
                                     </div>
 
-                                    <div class="team-block-image-wrap">
-                                        <img src="images/team/cute-korean-barista-girl-pouring-coffee-prepare-filter-batch-brew-pour-working-cafe.jpg" class="team-block-image img-fluid" alt="">
+                                    <div class="equipe-block-image-wrap">
+                                        <img src="imagens/equipe/cute-korean-barista-girl-pouring-coffee-prepare-filter-batch-brew-pour-working-cafe.jpg" class="equipe-block-image img-fluid" alt="">
                                     </div>
                                 </div>
                             </div>
 
                             <div class="col-lg-3 col-md-6 col-12 mb-4">
-                                <div class="team-block-wrap">
-                                    <div class="team-block-info d-flex flex-column">
+                                <div class="equipe-block-wrap">
+                                    <div class="equipe-block-info d-flex flex-column">
                                         <div class="d-flex mt-auto mb-3">
-                                            <h4 class="text-white mb-0">Nathan</h4>
+                                            <h4 class="mb-0"> Nathan </h4>
 
-                                            <p class="badge ms-4"><em>Tático</em></p>
+                                            <p class="badge ms-4"> <em> Tático </em> </p>
                                         </div>
 
-                                        <p class="text-white mb-0">Sabores resgatados do desperdício para transformar o seu dia.</p>
+                                        <p class="mb-0"> 
+                                            <ul type="none">
+                                                <li> Documentação </li>
+                                                <li> Dev. Mobile </li>
+                                                <li> Dev. Web </li>
+                                                <li> Design </li>
+                                            </ul>    
+                                        </p>
                                     </div>
 
-                                    <div class="team-block-image-wrap">
-                                        <img src="images/team/small-business-owner-drinking-coffee.jpg" class="team-block-image img-fluid" alt="">
+                                    <div class="equipe-block-image-wrap">
+                                        <img src="imagens/equipe/small-business-owner-drinking-coffee.jpg" class="equipe-block-image img-fluid" alt="">
                                     </div>
                                 </div>
                             </div>
 
                             <div class="col-lg-3 col-md-6 col-12">
-                                <div class="team-block-wrap">
-                                    <div class="team-block-info d-flex flex-column">
+                                <div class="equipe-block-wrap">
+                                    <div class="equipe-block-info d-flex flex-column">
                                         <div class="d-flex mt-auto mb-3">
-                                            <h4 class="text-white mb-0">João</h4>
+                                            <h4 class="mb-0"> João </h4>
 
-                                            <p class="badge ms-4"><em>Operacional</em></p>
+                                            <p class="badge ms-4"> <em> Operacional </em> </p>
                                         </div>
 
-                                        <p class="text-white mb-0">Sabores resgatados do desperdício para transformar o seu dia.</p>
+                                        <p class="mb-0"> 
+                                            <ul type="none">
+                                                <li> Documentação </li>
+                                                <li> Dev. Mobile </li>
+                                                <li> Design </li>
+                                                <li> Apresentação </li>
+                                            </ul> 
+                                        </p>
                                     </div>
 
-                                    <div class="team-block-image-wrap">
-                                        <img src="images/team/smiley-business-woman-working-cashier.jpg" class="team-block-image img-fluid" alt="">
+                                    <div class="equipe-block-image-wrap">
+                                        <img src="imagens/equipe/smiley-business-woman-working-cashier.jpg" class="equipe-block-image img-fluid" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -244,178 +231,165 @@
                 </section>
 
 
-                <section class="menu-section section-padding" id="section_3">
+                <section class="ofertas-section section-padding" id="ofertas">
                     <div class="container">
                         <div class="row">
 
                             <div class="col-lg-6 col-12 mb-4 mb-lg-0">
-                                <div class="menu-block-wrap">
+                                <div class="ofertas-block-wrap">
                                     <div class="text-center mb-4 pb-lg-2">
-                                        <em class="text-white">Sabores Salgados</em>
-                                        <h4 class="text-white">Sacola surpresa</h4>
+                                        <em > Sabores Salgados </em>
+                                        <h4 > Sacola Surpresa </h4>
                                     </div>
 
-                                    <div class="menu-block">
+                                    <div class="ofertas-block">
                                         <div class="d-flex">
-                                            <h6>Pizza Hut</h6>
+                                            <h6> Pizza Hut </h6>
                                         
                                             <span class="underline"></span>
 
-                                            <strong class="ms-auto">$12.50</strong>
+                                            <strong class="ms-auto">R$62,30</strong>
+                                        </div>
+
+                                        <div class="border-top mt-2 pt-2"> <small>Sacola surpresa com deliciosos itens avaliados à R$149,50 </small> </div>
+                                    </div>
+
+                                    <div class="ofertas-block my-4">
+                                        <div class="d-flex">
+                                            <h6> Texas Burguer <span class="badge ms-3"> Recomendado </span> </h6>
+                                        
+                                            <span class="underline"> </span>
+
+                                            <strong class="text-white ms-auto"> <del> R$82,20 </del> </strong>
+
+                                            <strong class="ms-2"> R$59,80 </strong>
                                         </div>
 
                                         <div class="border-top mt-2 pt-2">
-                                            <small>Sacola surpresa com deliciosos itens avaliados à $30,00</small>
+                                            <small> Sacola Surpresa com deliciosos itens avaliados à R$124,60 </small>
                                         </div>
                                     </div>
 
-                                    <div class="menu-block my-4">
+                                    <div class="ofertas-block">
                                         <div class="d-flex">
-                                            <h6>
-                                                Texas Burguer <span class="badge ms-3">Recomendado</span>
-                                            </h6>
+                                            <h6> Madero </h6>
                                         
                                             <span class="underline"></span>
 
-                                            <strong class="text-white ms-auto"><del>$16.50</del></strong>
-
-                                            <strong class="ms-2">$12.00</strong>
+                                            <strong class="ms-auto"> R$74,70 </strong>
                                         </div>
 
                                         <div class="border-top mt-2 pt-2">
-                                            <small>Sacola surpresa com deliciosos itens avaliados à $25,00</small>
+                                            <small> Sacola surpresa com deliciosos itens avaliados à R99,60 </small>
                                         </div>
                                     </div>
 
-                                    <div class="menu-block">
-                                        <div class="d-flex">
-                                            <h6>
-                                                Madero
-                                            </h6>
-                                        
-                                            <span class="underline"></span>
-
-                                            <strong class="ms-auto">$15.00</strong>
-                                        </div>
-
-                                        <div class="border-top mt-2 pt-2">
-                                            <small>Sacola surpresa com deliciosos itens avaliados à $20,00</small>
-                                        </div>
-                                    </div>
-
-                                    <div class="menu-block my-4">
+                                    <div class="ofertas-block my-4">
                                         <div class="d-flex">
                                             <h6>Taco Bell</h6>
                                         
                                             <span class="underline"></span>
 
-                                            <strong class="ms-auto">$12.50</strong>
+                                            <strong class="ms-auto"> R$62,30 </strong>
                                         </div>
 
                                         <div class="border-top mt-2 pt-2">
-                                            <small>Sacola surpresa com deliciosos itens avaliados à $30,00</small>
+                                            <small> Sacola surpresa com deliciosos itens avaliados à $152,00 </small>
                                         </div>
                                     </div>
 
-                                    <div class="menu-block">
+                                    <div class="ofertas-block">
                                         <div class="d-flex">
-                                            <h6>
-                                                Outback
-                                                <span class="badge ms-3">Recomendado</span>
-                                               
-                                            </h6>
+                                            <h6> Outback <span class="badge ms-3"> Recomendado </span> </h6>
                                         
                                             <span class="underline"></span>
 
-                                            <strong class="ms-auto">$18.00</strong>
+                                            <strong class="ms-auto"> R$89,70 </strong>
                                         </div>
 
                                         <div class="border-top mt-2 pt-2">
-                                            <small>Sacola surpresa com deliciosos itens avaliados à $28,00</small>
+                                            <small> Sacola surpresa com deliciosos itens avaliados à R$139,56 </small>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="col-lg-6 col-12">
-                                <div class="menu-block-wrap">
+                                <div class="ofertas-block-wrap">
                                     <div class="text-center mb-4 pb-lg-2">
-                                        <em class="text-white">Sabores Doces</em>
-                                        <h4 class="text-white">Sacola surpresa</h4>
+                                        <em > Sabores Doces </em>
+                                        <h4 > Sacola Surpresa </h4>
                                     </div>
 
-                                    <div class="menu-block">
+                                    <div class="ofertas-block">
                                         <div class="d-flex">
-                                            <h6>Cacau Show</h6>
+                                            <h6> Cacau Show </h6>
 
                                             <span class="underline"></span>
 
-                                            <strong class="text-white ms-auto"><del>$12.50</del></strong>
+                                            <strong class="text-white ms-auto"> <del> R$62,30 </del> </strong>
 
-                                            <strong class="ms-2">$7.50</strong>
+                                            <strong class="ms-2"> R$37,30 </strong>
                                         </div>
 
                                         <div class="border-top mt-2 pt-2">
-                                            <small>Sacola surpresa com deliciosos itens avaliados à $19,00</small>
+                                            <small> Sacola surpresa com deliciosos itens avaliados à R$94,70 </small>
                                         </div>
                                     </div>
 
-                                    <div class="menu-block">
+                                    <div class="ofertas-block my-4">
                                         <div class="d-flex">
-                                            <h6>Sodiê Doces</h6>
+                                            <h6> Sodiê Doces </h6>
 
                                             <span class="underline"></span>
 
-                                            <strong class="ms-auto">$5.50</strong>
+                                            <strong class="ms-auto"> R$27,40 </strong>
                                         </div>
 
                                         <div class="border-top mt-2 pt-2">
-                                            <small>Sacola surpresa com deliciosos itens avaliados à $16,50</small>
+                                            <small> Sacola Surpresa com deliciosos itens avaliados à R$82,20 </small>
                                         </div>
                                     </div>
 
-                                    <div class="menu-block my-4">
+                                    <div class="ofertas-block my-4">
                                         <div class="d-flex">
                                             <h6>Fast Donald's</h6>
 
                                             <span class="underline"></span>
 
-                                            <strong class="ms-auto">$7.50</strong>
+                                            <strong class="ms-auto"> R$37,30 </strong>
                                         </div>
 
                                         <div class="border-top mt-2 pt-2">
-                                            <small>Sacola surpresa com deliciosos itens avaliados à $13,00</small>
+                                            <small> Sacola surpresa com deliciosos itens avaliados à R$37,30 </small>
                                         </div>
                                     </div>
 
-                                    <div class="menu-block my-4">
+                                    <div class="ofertas-block my-4">
                                         <div class="d-flex">
-                                            <h6>
-                                                Copenhague
-                                                <span class="badge ms-3">Recomendado</span>
-                                            </h6>
+                                            <h6> Copenhague <span class="badge ms-3"> Recomendado </span> </h6>
 
                                             <span class="underline"></span>
 
-                                            <strong class="ms-auto">$5.90</strong>
+                                            <strong class="ms-auto"> R$29,40 </strong>
                                         </div>
 
                                         <div class="border-top mt-2 pt-2">
-                                            <small>Sacola surpresa com deliciosos itens avaliados à $8,00</small>
+                                            <small> Sacola surpresa com deliciosos itens avaliados à R$39,80 </small>
                                         </div>
                                     </div>
 
-                                    <div class="menu-block">
+                                    <div class="ofertas-block">
                                         <div class="d-flex">
-                                            <h6>Chocolândia</h6>
+                                            <h6> Chocolândia </h6>
 
                                             <span class="underline"></span>
 
-                                            <strong class="ms-auto">$7.25</strong>
+                                            <strong class="ms-auto"> R$36,10 </strong>
                                         </div>
 
                                         <div class="border-top mt-2 pt-2">
-                                            <small>Sacola surpresa com deliciosos itens avaliados à $13,00</small>
+                                            <small> Sacola surpresa com deliciosos itens avaliados à R$64,80 </small>
                                         </div>
                                     </div>
                                 </div>
@@ -426,35 +400,35 @@
                 </section>
 
 
-                <section class="reviews-section section-padding section-bg" id="section_4">
+                <section class="avaliacoes-section section-padding section-bg" id="avaliacoes">
                     <div class="container">
                         <div class="row justify-content-center">
 
                             <div class="col-lg-12 col-12 text-center mb-4 pb-lg-2">
-                                <em class="text-white">Comentários de Clientes</em>
+                                <em > Comentários de Clientes </em>
 
-                                <h2 class="text-white">Avaliações</h2>
+                                <h2 > Avaliações </h2>
                             </div>
 
                             <div class="timeline">
                                 <div class="timeline-container timeline-container-left">
                                     <div class="timeline-content">
-                                        <div class="reviews-block">
-                                            <div class="reviews-block-image-wrap d-flex align-items-center">
-                                                <img src="images/reviews/young-woman-with-round-glasses-yellow-sweater.jpg" class="reviews-block-image img-fluid" alt="">
+                                        <div class="avaliacoes-block">
+                                            <div class="avaliacoes-block-image-wrap d-flex align-items-center">
+                                                <img src="imagens/avaliacoes/young-woman-with-round-glasses-yellow-sweater.jpg" class="avaliacoes-block-image img-fluid" alt="">
 
-                                                <div class="">
-                                                    <h6 class="text-white mb-0">Sandra</h6>
+                                                <div>
+                                                    <h6 class="mb-0"> Sandra </h6>
                                                 </div>
                                             </div>
 
-                                            <div class="reviews-block-info">
-                                                <p>Fiquei impressionada com a variedade de opções disponíveis na plataforma. É incrível como podemos encontrar produtos de alta qualidade e com preços acessíveis enquanto combatemos o desperdício de alimentos.</p>
+                                            <div class="avaliacoes-block-info">
+                                                <p> Fiquei impressionada com a variedade de opções disponíveis na plataforma. É incrível como podemos encontrar produtos de alta qualidade e com preços acessíveis enquanto combatemos o desperdício de alimentos. </p>
 
                                                 <div class="d-flex border-top pt-3 mt-4">
-                                                    <strong class="text-white">5 <small class="ms-2">Classificação</small></strong>
+                                                    <strong > 5 <small class="ms-2"> Classificação </small></strong>
 
-                                                    <div class="reviews-group ms-auto">
+                                                    <div class="avaliacoes-group ms-auto">
                                                         <i class="bi-star-fill"></i>
                                                         <i class="bi-star-fill"></i>
                                                         <i class="bi-star-fill"></i>
@@ -469,22 +443,22 @@
 
                                 <div class="timeline-container timeline-container-right">
                                     <div class="timeline-content">
-                                        <div class="reviews-block">
-                                            <div class="reviews-block-image-wrap d-flex align-items-center">
-                                                <img src="images/reviews/senior-man-white-sweater-eyeglasses.jpg" class="reviews-block-image img-fluid" alt="">
+                                        <div class="avaliacoes-block">
+                                            <div class="avaliacoes-block-image-wrap d-flex align-items-center">
+                                                <img src="imagens/avaliacoes/senior-man-white-sweater-eyeglasses.jpg" class="avaliacoes-block-image img-fluid" alt="">
 
-                                                <div class="">
-                                                    <h6 class="text-white mb-0">Pedro</h6>
+                                                <div>
+                                                    <h6 class="mb-0"> Pedro </h6>
                                                 </div>
                                             </div>
 
-                                            <div class="reviews-block-info">
-                                                <p>Adorei a ideia de poder ajudar o meio ambiente enquanto desfruto de produtos frescos e deliciosos! A entrega foi rápida e os produtos estavam em ótimo estado.</p>
+                                            <div class="avaliacoes-block-info">
+                                                <p> Adorei a ideia de poder ajudar o meio ambiente enquanto desfruto de produtos frescos e deliciosos! A entrega foi rápida e os produtos estavam em ótimo estado. </p>
 
                                                 <div class="d-flex border-top pt-3 mt-4">
-                                                    <strong class="text-white">4 <small class="ms-2">Classificação</small></strong>
+                                                    <strong > 4 <small class="ms-2"> Classificação </small></strong>
 
-                                                    <div class="reviews-group ms-auto">
+                                                    <div class="avaliacoes-group ms-auto">
                                                         <i class="bi-star-fill"></i>
                                                         <i class="bi-star-fill"></i>
                                                         <i class="bi-star-fill"></i>
@@ -499,22 +473,22 @@
 
                                 <div class="timeline-container timeline-container-left">
                                     <div class="timeline-content">
-                                        <div class="reviews-block">
-                                            <div class="reviews-block-image-wrap d-flex align-items-center">
-                                                <img src="images/reviews/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair.jpg" class="reviews-block-image img-fluid" alt="">
+                                        <div class="avaliacoes-block">
+                                            <div class="avaliacoes-block-image-wrap d-flex align-items-center">
+                                                <img src="imagens/avaliacoes/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair.jpg" class="avaliacoes-block-image img-fluid" alt="">
 
-                                                <div class="">
-                                                    <h6 class="text-white mb-0">Olivia</h6>
+                                                <div>
+                                                    <h6 class="mb-0">Olivia</h6>
                                                 </div>
                                             </div>
 
-                                            <div class="reviews-block-info">
-                                                <p>Estou encantada com a proposta da plataforma! Os produtos que adquiri superaram minhas expectativas e o processo de compra foi simples e eficiente. Recomendo a todos que queiram fazer parte dessa mudança positiva!</p>
+                                            <div class="avaliacoes-block-info">
+                                                <p> Estou encantada com a proposta da plataforma! Os produtos que adquiri superaram minhas expectativas e o processo de compra foi simples e eficiente. Recomendo a todos que queiram fazer parte dessa mudança positiva! </p>
 
                                                 <div class="d-flex border-top pt-3 mt-4">
-                                                    <strong class="text-white">5 <small class="ms-2">Classificação</small></strong>
+                                                    <strong > 5 <small class="ms-2"> Classificação </small> </strong>
 
-                                                    <div class="reviews-group ms-auto">
+                                                    <div class="avaliacoes-group ms-auto">
                                                         <i class="bi-star-fill"></i>
                                                         <i class="bi-star-fill"></i>
                                                         <i class="bi-star-fill"></i>
@@ -533,22 +507,22 @@
                 </section>
 
 
-                <section class="contact-section section-padding" id="section_5">
+                <section class="contatos-section section-padding" id="contatos">
                     <div class="container">
                         <div class="row">   
 
                             <div class="col-lg-12 col-12">
-                                <em class="text-white">Diga Olá</em>
-                                <h2 class="text-white mb-4 pb-lg-2">Contate-nos</h2>
+                                <em > Diga Olá </em>
+                                <h2 class="mb-4 pb-lg-2"> Contate-nos </h2>
                             </div>
 
                             <div class="col-lg-6 col-12">
-                                <form action="index.php" method="post" class="custom-form contact-form" role="form">
+                                <form action="index.php" method="post" class="personalizado-form contatos-form" role="form">
 
                                 <?php
-                                      
+                                    
                                     if ( isset($_POST["nome"]) && isset($_POST["email"]) && isset($_POST["mensagem"]) ) {
-                                       
+                                    
                                         $nome = $_POST["nome"];
                                         $email = $_POST['email'];
                                         $mensagem = $_POST['mensagem'];
@@ -614,65 +588,56 @@
                         <div class="row">
 
                             <div class="col-lg-4 col-12 me-auto">
-                                <em class="text-white d-block mb-4">Onde nos encontrar?</em>
+                                <em class="d-block mb-4">Onde nos encontrar?</em>
 
-                                <strong class="text-white">
+                                <strong >
                                     <i class="bi-geo-alt me-2"></i>
                                     Rua Cristobal Claudio Elillo 88, Guarulhos, SP, 07190-065
                                 </strong>
 
-                                <ul class="social-icon mt-4">
-                                    <li class="social-icon-item">
-                                        <!--REDES SOCIAIS-->
-                                        <a href="https://www.facebook.com/profile.php?id=100012355950771" class="social-icon-link bi-facebook" title="Facebook">
-                                        </a>
+                                <ul class="social-icone mt-4">
+                                    <li class="social-icone-item">
+                                        <a href="https://www.facebook.com/profile.php?id=100012355950771" class="social-icone-link bi-facebook" title="Facebook"> </a>
                                     </li>
         
-                                    <li class="social-icon-item">
-                                        <!--REDES SOCIAIS-->
-                                        <a href="https://x.com/krlheeo" target="_new" class="social-icon-link bi-twitter" title="X/Twitter">
-                                        </a>
+                                    <li class="social-icone-item">
+                                        <a href="https://x.com/krlheeo" target="_new" class="social-icone-link bi-twitter" title="X/Twitter"> </a>
                                     </li>
 
-                                    <li class="social-icon-item">
-                                        <!--REDES SOCIAIS-->
-                                        <a href="https://wa.me/5511997385214" class="social-icon-link bi-whatsapp" title="WhatsApp">
+                                    <li class="social-icone-item">
+                                        <a href="https://wa.me/5511997385214" class="social-icone-link bi-whatsapp" title="WhatsApp">
                                         </a>
                                     </li>
                                 </ul>
                             </div>
 
                             <div class="col-lg-3 col-12 mt-4 mb-3 mt-lg-0 mb-lg-0">
-                                <em class="text-white d-block mb-4">Contatos</em>
+                                <em class="d-block mb-4">Contatos</em>
 
                                 <p class="d-flex mb-1">
                                     <strong class="me-2">Telefone: </strong>
-                                    <a href="tel: +55 11 99738 5214" class="site-footer-link">
-                                        +55 11 9 9738 - 5214
-                                    </a>
+                                    <a href="tel: +55 11 99738 5214" class="site-footer-link"> +55 11 9 9738 - 5214 </a>
                                 </p>
 
                                 <p class="d-flex">
-                                    <strong class="me-2">Email:</strong>
+                                    <strong class="me-2"> Email: </strong>
 
-                                    <a href="Leonardo@Nosz.com.vc" class="site-footer-link">
-                                        Leonardo@Nosz.com.vc | nosztcc@gmail.com
-                                    </a>
+                                    <a href="nosztcc@gmail.com" class="site-footer-link">  nosztcc@gmail.com </a>
                                 </p>
                             </div>
 
 
                             <div class="col-lg-5 col-12">
-                                <em class="text-white d-block mb-4">Parcerias</em>
+                                <em class="d-block mb-4"> Parcerias</em>
 
                                 <ul class="opening-hours-list">
                                     <li class="d-flex">
-                                        <img src="images/texasburger.png" class="reviews-block-image img-fluid" alt="">
+                                        <img src="imagens/texasburger.png" class="avaliacoes-block-image img-fluid" alt="">
                                         <strong class="mt-4">Texas Burguer</strong>
                                     </li>
 
                                     <li class="d-flex">
-                                        <img src="images/CPS.jpg" class="reviews-block-image img-fluid" alt="">
+                                        <img src="imagens/CPS.jpg" class="avaliacoes-block-image img-fluid" alt="">
                                         <strong class="mt-4">Centro Paula de Souza</strong>
                                     </li>
 
@@ -680,27 +645,14 @@
                             </div>
 
                             <div class="col-lg-8 col-12 mt-4">
-                                <p class="copyright-text mb-0">
-                                    Copyright © Nósz.co 2024
-                                    - Design: Leonardo.co
-                                </p>
+                                <p class="copyright-text mb-0"> Copyright © Nósz.co 2024  - Design: Leonardo.co </p>
                             </div>
                     </div>
                 </footer>
             </main>
 
-     
-        
-    
-    
-    
-    <!-- JAVASCRIPT FILES -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery.sticky.js"></script>
-        <script src="js/click-scroll.js"></script>
-        <script src="js/vegas.min.js"></script>
-        <script src="js/custom.js"></script>
+            <script src="js/jquery.min.js"></script> <script src="js/bootstrap.min.js"></script> <script src="js/jquery.sticky.js"></script> <script src="js/click-scroll.js"></script> <script src="js/vegas.min.js"></script> <script src="js/personalizado.js"></script>
 
-    </body>
-</html>
+        </body>
+
+    </html>
