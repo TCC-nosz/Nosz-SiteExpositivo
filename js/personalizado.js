@@ -3,7 +3,6 @@
   
   "use strict";
 
-    // NAVBAR
     $('.navbar-collapse a').on('click',function(){
       $(".navbar-collapse").collapse('hide');
     });
@@ -11,9 +10,9 @@
     $(function() {
       $('.inicio-slides').vegas({
           slides: [
-              { src: 'imagens/slides/reaproveitamento.png' },
-              { src: 'imagens/slides/intro.png' },
-              { src: 'imagens/slides/representacao.png' }
+            { src: 'imagens/slides/reaproveitamento.png' },
+            { src: 'imagens/slides/intro.png' },
+            { src: 'imagens/slides/representacao.png' }
           ],
           timer: false,
           animation: 'kenburns',

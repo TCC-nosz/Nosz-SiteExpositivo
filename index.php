@@ -18,9 +18,6 @@
         <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicons/favicon-16x16.png">
         <link rel="manifest" href="imagens/favicons/site.webmanifest">
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,400;0,600;0,700;1,200;1,700&display=swap" rel="stylesheet">
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/bootstrap-icons.css" rel="stylesheet">
         <link href="css/vegas.min.css" rel="stylesheet">
@@ -90,7 +87,7 @@
                             <div class="col-lg-6 col-12">
                                 <div class="ratio ratio-1x1">
                                     <video autoplay="" loop="" muted="" class="personalizado-video" poster="">
-                                        <source src="videos/pexels-mike-jones-9046237.mp4" type="video/mp4"> Seu navegador não suporta a tag de vídeo </video>
+                                        <source src="videos/sobre.mp4" type="video/mp4"> Seu navegador não suporta a tag de vídeo </video>
 
                                     <div class="sobre-video-info d-flex flex-column">
                                         <h4 class="mt-auto"> Desde 2023 </h4>
@@ -140,6 +137,7 @@
                                             <ul type="none">
                                                 <li> Liderança </li>
                                                 <li> Idealização </li>
+                                                <li> Dev. Web </li>
                                                 <li> Tecnologias necessárias </li>
                                             </ul>
                                         </p>
@@ -171,7 +169,7 @@
                                     </div>
 
                                     <div class="equipe-block-image-wrap">
-                                        <img src="imagens/equipe/cute-korean-barista-girl-pouring-coffee-prepare-filter-batch-brew-pour-working-cafe.jpg" class="equipe-block-image img-fluid" alt="">
+                                        <img src="imagens/equipe/kawan.png" class="equipe-block-image img-fluid" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -238,8 +236,8 @@
                             <div class="col-lg-6 col-12 mb-4 mb-lg-0">
                                 <div class="ofertas-block-wrap">
                                     <div class="text-center mb-4 pb-lg-2">
-                                        <em > Sabores Salgados </em>
-                                        <h4 > Sacola Surpresa </h4>
+                                        <em> Sabores Salgados </em>
+                                        <h4> Sacola Surpresa </h4>
                                     </div>
 
                                     <div class="ofertas-block">
@@ -251,7 +249,9 @@
                                             <strong class="ms-auto">R$62,30</strong>
                                         </div>
 
-                                        <div class="border-top mt-2 pt-2"> <small>Sacola surpresa com deliciosos itens avaliados à R$149,50 </small> </div>
+                                        <div class="border-top mt-2 pt-2"> 
+                                            <small> Sacola surpresa com deliciosos itens avaliados à R$149,50 </small> 
+                                        </div>
                                     </div>
 
                                     <div class="ofertas-block my-4">
@@ -286,7 +286,7 @@
 
                                     <div class="ofertas-block my-4">
                                         <div class="d-flex">
-                                            <h6>Taco Bell</h6>
+                                            <h6> Taco Bell </h6>
                                         
                                             <span class="underline"></span>
 
@@ -405,9 +405,9 @@
                         <div class="row justify-content-center">
 
                             <div class="col-lg-12 col-12 text-center mb-4 pb-lg-2">
-                                <em > Comentários de Clientes </em>
+                                <em> Comentários de Clientes </em>
 
-                                <h2 > Avaliações </h2>
+                                <h2> Avaliações </h2>
                             </div>
 
                             <div class="timeline">
@@ -415,18 +415,16 @@
                                     <div class="timeline-content">
                                         <div class="avaliacoes-block">
                                             <div class="avaliacoes-block-image-wrap d-flex align-items-center">
-                                                <img src="imagens/avaliacoes/young-woman-with-round-glasses-yellow-sweater.jpg" class="avaliacoes-block-image img-fluid" alt="">
+                                                <img src="imagens/avaliacoes/sandra.png" class="avaliacoes-block-image img-fluid" alt="">
 
-                                                <div>
-                                                    <h6 class="mb-0"> Sandra </h6>
-                                                </div>
+                                                    <h6 class="mb-0"> Sandra </h6>       
                                             </div>
 
                                             <div class="avaliacoes-block-info">
                                                 <p> Fiquei impressionada com a variedade de opções disponíveis na plataforma. É incrível como podemos encontrar produtos de alta qualidade e com preços acessíveis enquanto combatemos o desperdício de alimentos. </p>
 
                                                 <div class="d-flex border-top pt-3 mt-4">
-                                                    <strong > 5 <small class="ms-2"> Classificação </small></strong>
+                                                    <strong> 5 <small class="ms-2"> Classificação </small> </strong>
 
                                                     <div class="avaliacoes-group ms-auto">
                                                         <i class="bi-star-fill"></i>
@@ -445,18 +443,16 @@
                                     <div class="timeline-content">
                                         <div class="avaliacoes-block">
                                             <div class="avaliacoes-block-image-wrap d-flex align-items-center">
-                                                <img src="imagens/avaliacoes/senior-man-white-sweater-eyeglasses.jpg" class="avaliacoes-block-image img-fluid" alt="">
+                                                <img src="imagens/avaliacoes/pedro.png" class="avaliacoes-block-image img-fluid" alt="">
 
-                                                <div>
-                                                    <h6 class="mb-0"> Pedro </h6>
-                                                </div>
+                                                <h6 class="mb-0"> Pedro </h6>
                                             </div>
 
                                             <div class="avaliacoes-block-info">
                                                 <p> Adorei a ideia de poder ajudar o meio ambiente enquanto desfruto de produtos frescos e deliciosos! A entrega foi rápida e os produtos estavam em ótimo estado. </p>
 
                                                 <div class="d-flex border-top pt-3 mt-4">
-                                                    <strong > 4 <small class="ms-2"> Classificação </small></strong>
+                                                    <strong > 4 <small class="ms-2"> Classificação </small> </strong>
 
                                                     <div class="avaliacoes-group ms-auto">
                                                         <i class="bi-star-fill"></i>
@@ -475,10 +471,10 @@
                                     <div class="timeline-content">
                                         <div class="avaliacoes-block">
                                             <div class="avaliacoes-block-image-wrap d-flex align-items-center">
-                                                <img src="imagens/avaliacoes/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair.jpg" class="avaliacoes-block-image img-fluid" alt="">
+                                                <img src="imagens/avaliacoes/sandra.png" class="avaliacoes-block-image img-fluid" alt="">
 
                                                 <div>
-                                                    <h6 class="mb-0">Olivia</h6>
+                                                    <h6 class="mb-0"> Olívia </h6>
                                                 </div>
                                             </div>
 
@@ -517,61 +513,58 @@
                             </div>
 
                             <div class="col-lg-6 col-12">
-                                <form action="index.php" method="post" class="personalizado-form contatos-form" role="form">
+                                <form action="index.php#contatos" method="post" class="personalizado-form contatos-form" role="form">
 
-                                <?php
-                                    
-                                    if ( isset($_POST["nome"]) && isset($_POST["email"]) && isset($_POST["mensagem"]) ) {
-                                    
-                                        $nome = $_POST["nome"];
-                                        $email = $_POST['email'];
-                                        $mensagem = $_POST['mensagem'];
-
-                                        require 'vendor/autoload.php';
-
-                                        $de = new SendGrid\Email(null, "$email");
-                                        $assunto = "Mensagem de contato";
-                                        $para = new SendGrid\Email(null, "nosztcc@gmail.com");
-                                        $conteudo = new SendGrid\Content("text/html", "$mensagem");
-                                        $mail = new SendGrid\Mail($de, $assunto, $para, $conteudo);
-
-                                        //Necessário inserir a chave
-                                        $apiKey = 'SENDGRID_API_KEY';
-                                        $sg = new \SendGrid($apiKey);
-
-                                        $response = $sg->client->mail()->send()->post($mail);
-                                        echo "<em class='text-white'>Mensagem enviada com sucesso</em>";
-
-                                    }
-
-                                ?>
-
-                                <div class="row">
-                                    
-                                    <div class="col-lg-6 col-12">
-                                        <label for="name" class="form-label">Nome <sup class="text-danger">*</sup></label>
-
-                                        <input type="text" name="nome" id="name" class="form-control" placeholder="Seu Nome" required="">
-                                    </div>
-
-                                    <div class="col-lg-6 col-12">
-                                        <label for="email" class="form-label">Email </label>
-
-                                        <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Seu email@gmail.com" required="">
-                                    </div>
-
-                                    <div class="col-12">
-                                        <label for="message" class="form-label">Como podemos ajudar?</label>
-
-                                        <textarea name="mensagem" rows="4" class="form-control" id="message" placeholder="Mensagem" required=""></textarea>
+                                    <?php
                                         
-                                    </div>
-                                </div>
+                                        if ( isset($_POST["nome"]) && isset($_POST["email"]) && isset($_POST["mensagem"]) ) {
+                                        
+                                            $nome = $_POST["nome"]; $email = $_POST['email']; $mensagem = $_POST['mensagem'];
 
-                                <div class="col-lg-5 col-12 mx-auto mt-3">
-                                    <button type="submit" class="form-control">Enviar Mensagem</button>
-                                </div>
-                            </form>
+                                            require 'vendor/autoload.php';
+
+                                            $de = new SendGrid\Email(null, "$email");
+                                            $assunto = "Mensagem de contato";
+                                            $para = new SendGrid\Email(null, "nosztcc@gmail.com");
+                                            $conteudo = new SendGrid\Content("text/html", "$mensagem");
+                                            $mail = new SendGrid\Mail($de, $assunto, $para, $conteudo);
+
+                                            $chaveAPI = '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';
+                                            $sg = new \SendGrid($chaveAPI);
+
+                                            $response = $sg->client->mail()->send()->post($mail);
+                                            echo "<em class='text-white'> Mensagem enviada com sucesso </em>";
+
+                                        }
+
+                                    ?>
+
+                                    <div class="row">
+                                        
+                                        <div class="col-lg-6 col-12">
+                                            <label for="name" class="form-label"> Nome <sup class="text-danger"> * </sup> </label>
+
+                                            <input type="text" name="nome" id="name" class="form-control" placeholder="Seu Nome" required="">
+                                        </div>
+
+                                        <div class="col-lg-6 col-12">
+                                            <label for="email" class="form-label"> Email </label>
+
+                                            <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Seu email@gmail.com" required="">
+                                        </div>
+
+                                        <div class="col-12">
+                                            <label for="message" class="form-label"> Como podemos ajudar? </label>
+
+                                            <textarea name="mensagem" rows="4" class="form-control" id="message" placeholder="Mensagem" required=""></textarea>
+                                            
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-5 col-12 mx-auto mt-3">
+                                        <button type="submit" class="form-control"> Enviar Mensagem </button>
+                                    </div>
+                                </form>
                             </div>
 
                             <div class="col-lg-6 col-12 mx-auto mt-5 mt-lg-0 ps-lg-5">
@@ -588,7 +581,7 @@
                         <div class="row">
 
                             <div class="col-lg-4 col-12 me-auto">
-                                <em class="d-block mb-4">Onde nos encontrar?</em>
+                                <em class="d-block mb-4"> Onde nos encontrar? </em>
 
                                 <strong >
                                     <i class="bi-geo-alt me-2"></i>
@@ -597,55 +590,55 @@
 
                                 <ul class="social-icone mt-4">
                                     <li class="social-icone-item">
-                                        <a href="https://www.facebook.com/profile.php?id=100012355950771" class="social-icone-link bi-facebook" title="Facebook"> </a>
+                                        <a target="_blank" href="https://www.facebook.com/profile.php?id=61556614689733" class="social-icone-link bi-facebook" title="Facebook"> </a>
                                     </li>
         
                                     <li class="social-icone-item">
-                                        <a href="https://x.com/krlheeo" target="_new" class="social-icone-link bi-twitter" title="X/Twitter"> </a>
+                                        <a target="_blank" href="https://twitter.com/NoszTCC" target="_new" class="social-icone-link bi-twitter" title="X/Twitter"> </a>
                                     </li>
 
                                     <li class="social-icone-item">
-                                        <a href="https://wa.me/5511997385214" class="social-icone-link bi-whatsapp" title="WhatsApp">
-                                        </a>
+                                        <a target="_blank" href="https://www.instagram.com/nosztcc/" class="social-icone-link bi-instagram" title="Instagram"></a>
                                     </li>
                                 </ul>
                             </div>
 
                             <div class="col-lg-3 col-12 mt-4 mb-3 mt-lg-0 mb-lg-0">
-                                <em class="d-block mb-4">Contatos</em>
+                                <em class="d-block mb-4"> Contatos </em>
 
                                 <p class="d-flex mb-1">
-                                    <strong class="me-2">Telefone: </strong>
-                                    <a href="tel: +55 11 99738 5214" class="site-footer-link"> +55 11 9 9738 - 5214 </a>
+                                    <strong class="me-2"> Telefone: </strong>
+                                    <a href="tel: +55 11 99738 5214" class="site-footer-link"> +55 11 99738-5214 </a>
                                 </p>
 
                                 <p class="d-flex">
                                     <strong class="me-2"> Email: </strong>
 
-                                    <a href="nosztcc@gmail.com" class="site-footer-link">  nosztcc@gmail.com </a>
+                                    <a href="nosztcc@gmail.com" class="site-footer-link"> nosztcc@gmail.com </a>
                                 </p>
                             </div>
 
 
                             <div class="col-lg-5 col-12">
-                                <em class="d-block mb-4"> Parcerias</em>
+                                <em class="d-block mb-4"> Parcerias </em>
 
-                                <ul class="opening-hours-list">
                                     <li class="d-flex">
-                                        <img src="imagens/texasburger.png" class="avaliacoes-block-image img-fluid" alt="">
-                                        <strong class="mt-4">Texas Burguer</strong>
+                                        <a target="_blank" href="https://www.instagram.com/texasburguerlanch/">
+                                            <img src="imagens/parcerias/texasburger.png" class="avaliacoes-block-image img-fluid" alt="">
+                                            <strong class="mt-4"> Texas Burguer Lanch </strong>
+                                        </a>
                                     </li>
 
                                     <li class="d-flex">
-                                        <img src="imagens/CPS.jpg" class="avaliacoes-block-image img-fluid" alt="">
-                                        <strong class="mt-4">Centro Paula de Souza</strong>
+                                        <a target="_blank" href="https://www.cps.sp.gov.br/" >
+                                            <img src="imagens/parcerias/CPS.png" class="avaliacoes-block-image img-fluid" alt="">
+                                            <strong class="mt-4"> Centro Paula de Souza </strong>
+                                        </a>
                                     </li>
-
-                                </ul>
                             </div>
 
                             <div class="col-lg-8 col-12 mt-4">
-                                <p class="copyright-text mb-0"> Copyright © Nósz.co 2024  - Design: Leonardo.co </p>
+                                <p class="copyright-text mb-0"> Copyright © Nósz.co 2024 - Design: Leonardo.co </p>
                             </div>
                     </div>
                 </footer>

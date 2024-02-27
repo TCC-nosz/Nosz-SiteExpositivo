@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 /* Variáveis CSS */
 :root {
   --font-family: 'Montserrat', sans-serif;
@@ -35,7 +36,17 @@
   --fw-negrito: 700;
 }
 
-body { background-color: var(--marrom); font-family: var(--font-family); }
+html { scroll-behavior: smooth; }
+
+::-webkit-scrollbar { width: 5px; }
+
+::-webkit-scrollbar-track { box-shadow: inset 0 0 5px; background: var(--verdeEscuro); }
+
+::-webkit-scrollbar-thumb { background: var(--verdeClaro); }
+
+::-webkit-scrollbar-thumb:hover { background: var(--marrom); border-radius: 10px; }
+
+body { font-family: var(--font-family); }
 
 h1, h2, h3, h4, h5, h6 { color: var(--bege); font-weight: var(--fw-negrito);}
 
@@ -75,7 +86,9 @@ b, strong { font-weight: var(--fw-negrito); }
 
 .back-top-icon { font-size: var(--h2); }
 
-.timeline { position: relative;  max-width: 1200px;  margin: 0 auto; }
+.timeline { position: relative; max-width: 1200px;  margin: 0 auto; }
+
+.timeline h6 { color: var(--verdeEscuro);}
 
 .timeline::after {
   content: '';
@@ -121,9 +134,9 @@ b, strong { font-weight: var(--fw-negrito); }
   width: 0;
   z-index: 1;
   right: 25px;
-  border: medium solid var(--branco);
+  border: medium solid var(--verdeEscuro);
   border-width: 20px 0 20px 20px;
-  border-color: transparent transparent transparent var(--branco);
+  border-color: transparent transparent transparent var(--verdeEscuro);
 }
 
 .timeline-container-right::before {
@@ -134,16 +147,16 @@ b, strong { font-weight: var(--fw-negrito); }
   width: 0;
   z-index: 1;
   left: 25px;
-  border: medium solid var(--branco);
+  border: medium solid var(--verdeEscuro);
   border-width: 20px 20px 20px 0;
-  border-color: transparent var(--branco) transparent transparent;
+  border-color: transparent var(--verdeEscuro) transparent transparent;
 }
 
 .timeline-container-right::after { left: -13px; }
 
 .timeline-content {
   padding: 5px;
-  background-color: var(--branco);
+  background-color: var(--verdeEscuro);
   position: relative;
   border-radius: var(--br-medio);
 }
@@ -163,7 +176,7 @@ b, strong { font-weight: var(--fw-negrito); }
 
   .timeline-container-left::after, .timeline-container-right::after { left: 6px; }
 
-  .timeline-container-right {  left: 0%; }
+  .timeline-container-right { left: 0%; }
 
 }
 
@@ -212,11 +225,11 @@ b, strong { font-weight: var(--fw-negrito); }
   color: var(--verdeEscuro);
 }
 
-.navbar-brand-image { width: 40px; height: auto;  margin-right: 30px; }
+.navbar-brand-image { width: 40px; height: auto; margin-right: 30px; }
 
 .navbar .personalizado-btn { padding: 10px 20px; }
 
-.navbar-expand-lg .navbar-nav .nav-link { border-radius: var(--br-largo); margin: 10px;  padding: 10px; }
+.navbar-expand-lg .navbar-nav .nav-link { border-radius: var(--br-largo); margin: 10px; padding: 10px; }
 
 .navbar-nav .nav-link {
   display: inline-block;
@@ -266,7 +279,7 @@ b, strong { font-weight: var(--fw-negrito); }
 .navbar .dropdown-item.active, 
 .navbar .dropdown-item:active,
 .navbar .dropdown-item:focus, 
-.navbar .dropdown-item:hover { background: transparent; color: var(--link-hover-color); }
+.navbar .dropdown-item:hover { background: transparent; color: var(--amarelo); }
 
 .navbar .dropdown-toggle::after {
   content: "\f282";
@@ -298,9 +311,9 @@ b, strong { font-weight: var(--fw-negrito); }
   outline: none;
 }
 
-.navbar-toggler:focus { outline: none; box-shadow: none; }
-
-.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon { background: transparent; }
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+  background: transparent;
+}
 
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before,
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
@@ -340,9 +353,10 @@ b, strong { font-weight: var(--fw-negrito); }
 .navbar-toggler .navbar-toggler-icon::before { top: -8px; }
 
 .navbar-toggler .navbar-toggler-icon::after { top: 8px; }
+
 /* Início */
 .inicio-section {
-  background-color: var(--preto);
+  background-color: var(--verdeClaro);
   position: relative;
   overflow: hidden;
   min-height: 620px;
@@ -357,8 +371,8 @@ b, strong { font-weight: var(--fw-negrito); }
   top: 55%;
   left: 50%;
   transform: translate(-55%, -50%) rotate(45deg);
-  width: 250px;
-  height: 350px;
+  width: 25%;
+  height: 65%;
   pointer-events: none;
 }
 
@@ -418,7 +432,7 @@ b, strong { font-weight: var(--fw-negrito); }
   border-radius: var(--br-medio);
   position: relative;
   overflow: hidden;
-  max-height: 450px;
+  max-height: 320px;
   cursor: pointer;
 }
 
@@ -447,15 +461,10 @@ b, strong { font-weight: var(--fw-negrito); }
 
 .equipe-block-info .badge { margin: auto; top: 2px; bottom: 0; }
 
-
 /* Ofertas */
 .ofertas-section { background-image: url('../imagens/restaurante.png'); background-repeat: no-repeat; background-size: cover; }
 
-.ofertas-block-wrap {
-  background: rgba(0, 0, 0, 0.65);
-  border-radius: var(--br-medio);
-  padding: 45px;
-}
+.ofertas-block-wrap { background: rgba(0, 0, 0, 0.65);border-radius: var(--br-medio); padding: 45px; }
 
 .ofertas-block .border-top { border-top-color: rgba(255, 255, 255, 0.35) !important; }
 
@@ -496,8 +505,7 @@ b, strong { font-weight: var(--fw-negrito); }
 
 
 /* Avaliações */
-
-.avaliacoes-section { background-color: #7c5c52; }
+.avaliacoes-section { background-color: var(--carmin); }
 
 .avaliacoes-block {
   background-color: var(--coral);
@@ -506,10 +514,12 @@ b, strong { font-weight: var(--fw-negrito); }
   overflow: hidden;
 }
 
-.avaliacoes-block .border-top { border-top-color: rgba(255, 255, 255, 0.35) !important; }
+.avaliacoes-block h6 { color: var(--verdeEscuro); }
+
+.avaliacoes-block .border-top { border-top-color: var(--verdeClaro); }
 
 .avaliacoes-block-image-wrap {
-  background-image: url('../imagens/mid-section-waitress-wiping-espresso-machine-with-napkin-cafa-c.jpg');
+  background-image: url('../imagens/backgrounds/background.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -518,11 +528,9 @@ b, strong { font-weight: var(--fw-negrito); }
 
 .avaliacoes-block-image { border-radius: var(--br-largo); width: 65px; height: 65px; object-fit: cover; margin-right: 10px; }
 
-.avaliacoes-block-info {
-  padding: 20px 30px;
-}
+.avaliacoes-block-info { padding: 20px 30px; }
 
-.avaliacoes-block-info p { font-size: var(--btn); font-style: italic; color: rgba(255, 255, 255, 0.75); }
+.avaliacoes-block-info p { font-size: var(--btn); font-style: italic; color: var(--verdeClaro); }
 
 .avaliacoes-group i { color: var(--branco); }
 
@@ -559,7 +567,7 @@ b, strong { font-weight: var(--fw-negrito); }
 
 /*Contatos */
 .contatos-section {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(188, 108, 37, 1)), url('../imagens/young-female-barista-wear-face-mask-serving-take-away-hot-coffee-paper-cup-consumer-cafe.jpg');
+  background-image: linear-gradient(to bottom, rgba(51, 51, 51, 0.45), rgba(227, 98, 22, 1)), url('../imagens/backgrounds/background2.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -662,7 +670,6 @@ b, strong { font-weight: var(--fw-negrito); }
 .copyright-text { color: rgba(255, 255, 255, 0.75);font-size: var(--ofertas); }
 
 .copyright-text a { color: rgba(255, 200, 160, 0.75); }
-
 
 /* Ícones das redes sociais */
 .social-icone { margin: 0; padding: 0; }
