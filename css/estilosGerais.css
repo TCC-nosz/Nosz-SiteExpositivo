@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* Variáveis CSS */
 :root {
   --font-family: 'Montserrat', sans-serif;
@@ -15,25 +16,11 @@
   --verdeClaro: rgb(181, 215, 173);
   --branco: rgb(255, 255, 255);
 
-  --h1: 65px;
-  --h2: 40px;
-  --h3: 30px;
-  --h4: 25px;
-  --h5: 20px;
-  --h6: 20px;
-  --p: 15px;
-  --btn: 15px;
-  --form: 15px;
-  --ofertas: 15px;
+  --h1: 65px; --h2: 40px; --h3: 30px; --h4: 25px; --h5: 20px; --h6: 20px; --p: 15px; --btn: 15px; --form: 15px; --ofertas: 15px;
 
-  --br-largo: 100px;
-  --br-medio: 20px;
-  --br-pequeno: 10px;
+  --br-largo: 100px; --br-medio: 20px; --br-pequeno: 10px;
 
-  --fw-fino: 200;
-  --fw-leve: 300;
-  --fw-medio: 400;
-  --fw-negrito: 700;
+  --fw-fino: 200; --fw-leve: 300; --fw-medio: 400;--fw-negrito: 700;
 }
 
 html { scroll-behavior: smooth; }
@@ -42,7 +29,7 @@ html { scroll-behavior: smooth; }
 
 ::-webkit-scrollbar-track { box-shadow: inset 0 0 5px; background: var(--verdeEscuro); }
 
-::-webkit-scrollbar-thumb { background: var(--verdeClaro);}
+::-webkit-scrollbar-thumb { background: var(--verdeClaro); }
 
 ::-webkit-scrollbar-thumb:hover { background: var(--marrom); border-radius: 10px; }
 
@@ -427,6 +414,8 @@ b, strong { font-weight: var(--fw-negrito); }
 
 .sobre-video-info h4 { color: var(--branco); }
 
+.ods-block-image { border-radius: var(--br-medio); width: 75px; height: 75px; object-fit: cover; margin-right: 10px; margin: 15%; }
+
 .equipe-block-wrap {
   background-color: var(--bege);
   border-radius: var(--br-medio);
@@ -525,7 +514,7 @@ b, strong { font-weight: var(--fw-negrito); }
   padding: 30px;
 }
 
-.avaliacoes-block-image { border-radius: var(--br-largo); width: 65px; height: 65px; object-fit: cover; margin-right: 10px; }
+.avaliacoes-block-image { display: flex; flex-direction: row; border-radius: var(--br-largo); width: 75px; height: 75px; object-fit: cover; margin-right: 10px; padding: 5%; }
 
 .avaliacoes-block-info { padding: 20px 30px; }
 
@@ -534,7 +523,7 @@ b, strong { font-weight: var(--fw-negrito); }
 .avaliacoes-group i { color: var(--branco); }
 
 
-/* download  - Em -Breve */
+/* Download - Em-Breve */
 .download-section {
   background-image: url('../imagens/backgrounds/download.png');
   background-repeat: no-repeat;
@@ -698,7 +687,7 @@ b, strong { font-weight: var(--fw-negrito); }
 
 @media screen and (max-width: 991px) {
 
-  h1 { font-size: 54px; } h2 { font-size: 36px; }h3 { font-size: 32px; } h4 { font-size: 28px; } h5 { font-size: 20px; } h6 { font-size: 18px; }
+  h1 { font-size: 54px; } h2 { font-size: 36px; } h3 { font-size: 32px; } h4 { font-size: 28px; } h5 { font-size: 20px; } h6 { font-size: 18px; }
 
   .section-padding { padding-top: 50px; padding-bottom: 50px; }
 
@@ -722,11 +711,14 @@ b, strong { font-weight: var(--fw-negrito); }
 }
 
 @media screen and (max-width: 767px) {
+
   .personalizado-btn { font-size: 14px; padding: 12px 20px; }
 
   .ofertas-block-wrap,
   .avaliacoes-block-image-wrap,
-  .avaliacoes-block-info { padding: 20px;}
+  .avaliacoes-block-info { padding: 20px; }
+
+  .ods-block-image { display: flex; flex-direction: column; width: 75px; height: 75px; object-fit: cover; margin-right: 10px; margin: 15%; }
 
 }
 

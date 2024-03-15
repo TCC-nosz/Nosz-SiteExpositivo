@@ -2,28 +2,28 @@
 
     <html lang="pt-br">
 
-    <head>
+        <head>
 
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Empresa que viabiliza o Reaproveitamento de Alimentos">
-        <meta name="author" content="Nósz">
-        <meta name="Copyright" content="Copyright © Nósz.co 2024">
-        <meta name="keywords" content="nosz, reaproveitamento, alimentos, reaproveitamento de alimentos, app de reaproveitamento, empresa de reaproveitamento, grupo de reaproveitamento">
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="description" content="Empresa que viabiliza o Reaproveitamento de Alimentos">
+            <meta name="author" content="Nósz">
+            <meta name="Copyright" content="Copyright © Nósz.co 2024">
+            <meta name="keywords" content="nosz, reaproveitamento, alimentos, reaproveitamento de alimentos, app de reaproveitamento, empresa de reaproveitamento, grupo de reaproveitamento">
 
-        <title> Nósz </title>
+            <title> Nósz </title>
 
-        <link rel="apple-touch-icon" sizes="180x180" href="imagens/favicons/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicons/favicon-16x16.png">
-        <link rel="manifest" href="imagens/favicons/site.webmanifest">
+            <link rel="apple-touch-icon" sizes="180x180" href="imagens/favicons/apple-touch-icon.png">
+            <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicons/favicon-32x32.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicons/favicon-16x16.png">
+            <link rel="manifest" href="imagens/favicons/site.webmanifest">
 
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/bootstrap-icons.css" rel="stylesheet">
-        <link href="css/vegas.min.css" rel="stylesheet">
-        <link href="css/estilosGerais.css" rel="stylesheet">
+            <link href="css/bootstrap.min.css" rel="stylesheet">
+            <link href="css/bootstrap-icons.css" rel="stylesheet">
+            <link href="css/vegas.min.css" rel="stylesheet">
+            <link href="css/estilosGerais.css" rel="stylesheet">
 
-    </head>
+        </head>
         
         <body>
                     
@@ -86,8 +86,7 @@
 
                             <div class="col-lg-6 col-12">
                                 <div class="ratio ratio-1x1">
-                                    <video autoplay="" loop="" muted="" class="personalizado-video" poster="">
-                                        <source src="videos/sobre.mp4" type="video/mp4"> Seu navegador não suporta a tag de vídeo </video>
+                                    <video autoplay="" loop="" muted="" class="personalizado-video" poster=""> <source src="videos/sobre.mp4" type="video/mp4"> Seu navegador não suporta a tag de vídeo </video>
 
                                     <div class="sobre-video-info d-flex flex-column">
                                         <h4 class="mt-auto"> Desde 2023 </h4>
@@ -106,14 +105,18 @@
 
                                 <p> Esta plataforma inovadora conecta produtores locais, restaurantes e consumidores conscientes, resgatando alimentos excedentes do descarte e oferecendo-os a preços acessíveis. Rapidamente, a "Nósz" se tornou uma força na luta contra o desperdício de alimentos, inspirando uma mudança de mentalidade em relação ao consumo e à responsabilidade ambiental. </p>
 
-                                <img src="imagens/ods/ods2.png" class="avaliacoes-block-image img-fluid" alt="Fome Zero e Agricultura Sustentável">
-                                <img src="imagens/ods/ods3.png" class="avaliacoes-block-image img-fluid" alt="Saude e Bem-Estar">
-                                <img src="imagens/ods/ods8.png" class="avaliacoes-block-image img-fluid" alt="Trabalho crescente e Crescimento Sustentável">
-                                <img src="imagens/ods/ods10.png" class="avaliacoes-block-image img-fluid" alt="Redução das Desigualdades">
-                                <img src="imagens/ods/ods11.png" class="avaliacoes-block-image img-fluid" alt="Cidades e Comunidades Sustentáveis">
-                                <img src="imagens/ods/ods12.png" class="avaliacoes-block-image img-fluid" alt="Consumo e Produção Responsáveis">
-
                                 <a href="#equipe" class="smoothscroll btn personalizado-btn personalizado-border-btn mt-3 mb-4"> Fundadores </a>
+                            </div>
+
+                            <div class="col-lg-1 col-4 mt-1 mt-lg-0 mx-auto">
+                                <em> ODS Colaboradas </em>
+
+                                <img src="imagens/ods/ods2.png" class="ods-block-image img-fluid" alt="Fome Zero e Agricultura Sustentável">
+                                <img src="imagens/ods/ods3.png" class="ods-block-image img-fluid" alt="Saude e Bem-Estar">
+                                <img src="imagens/ods/ods8.png" class="ods-block-image img-fluid" alt="Trabalho crescente e Crescimento Sustentável">
+                                <img src="imagens/ods/ods10.png" class="ods-block-image img-fluid" alt="Redução das Desigualdades">
+                                <img src="imagens/ods/ods11.png" class="ods-block-image img-fluid" alt="Cidades e Comunidades Sustentáveis">
+                                <img src="imagens/ods/ods12.png" class="ods-block-image img-fluid" alt="Consumo e Produção Responsáveis">
                             </div>
 
                         </div>
@@ -162,7 +165,7 @@
                                         <div class="d-flex mb-5">
                                             <h4 class="mb-0"> Kawan </h4>
 
-                                            <p class="badge ms-4"> <em> Tático </em>  </p>
+                                            <p class="badge ms-4"> <em> Tático </em> </p>
                                         </div>
 
                                         <p class="mb-5 mt-5"> 
@@ -521,6 +524,13 @@
                                 <form action="index.php#contatos" method="post" class="personalizado-form contatos-form" role="form">
 
                                 <?php
+
+                                    use PHPMailer\PHPMailer\PHPMailer;
+                                    use PHPMailer\PHPMailer\SMTP;
+                                    use PHPMailer\PHPMailer\Exception;
+                                    require "bibliotecas/vendor/autoload.php";
+
+                                    $phpmailer = new PHPMailer(true);
                                     
                                     if ( isset($_POST["nome"]) && isset($_POST["email"]) && isset($_POST["mensagem"]) ) {
                                     
@@ -528,19 +538,51 @@
                                         $email = $_POST['email'];
                                         $mensagem = $_POST['mensagem'];
 
-                                        require 'vendor/autoload.php';
-
+                                        // SendGrid
                                         $de = new SendGrid\Email(null, "$email");
                                         $assunto = "Mensagem de contato";
                                         $para = new SendGrid\Email(null, "nosztcc@gmail.com");
                                         $conteudo = new SendGrid\Content("text/html", "$mensagem");
                                         $mail = new SendGrid\Mail($de, $assunto, $para, $conteudo);
 
-                                        $chaveAPI = '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';
+                                        $chaveAPI = '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';
                                         $sg = new \SendGrid($chaveAPI);
 
                                         $resposta = $sg->client->mail()->send()->post($mail);
+
+                                        // Função pré-determinada
+                                        // $para = "nosztcc@gmail.com";
+                                        // $assunto = "Mensagem de contato";
+                                        // $conteudo = "$mensagem";
+                                        // $cabecario = "From: $email" . "\r\n" . "Reply-To: nosztcc@gmail.com";
+
+                                        // mail($para, $assunto, $conteudo, $cabecario);
+                                        
+                                        // PHPMailer
+                                        // try {
+
+                                        //     $phpmailer->SMTPDebug = SMTP::DEBUG_SERVER;
+                                        //     $phpmailer->isSMTP();
+                                        //     $phpmailer->Host = 'sandbox.smtp.mailtrap.io';
+                                        //     $phpmailer->SMTPAuth= true;
+                                        //     $phpmailer->Username = '2eab41a743a35e';
+                                        //     $phpmailer->Password = '********20e1';
+                                        //     $phpmailer->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+                                        //     $phpmailer->Port = 2525;
+                                            
+                                        //     $phpmailer->setFrom('atlaskawan@gmail.com', 'Kawan');
+                                        //     $phpmailer->addAddress('atlaskawan@gmail.com', 'Kawan');
+
+                                        //     $phpmailer->isHTML(true);
+                                        //     $phpmailer->Subject = 'Mensagem de contato';
+                                        //     $phpmailer->Body    = '<b> $mensagem </b>';
+                                        //     $phpmailer->AltBody = '$mensagem';
+
+                                        //     $phpmailer->send();
+
                                         echo "<em class='text-white'> Mensagem enviada com sucesso </em>";
+
+                                        // } catch (Exception $e) { echo "<em class='text-white'> E-Mail não foi enviado. O erro foi: {$phpmailer->ErrorInfo}  </em>";  }
 
                                     }
 
@@ -549,7 +591,7 @@
                                 <div class="row">
                                     
                                     <div class="col-lg-6 col-12">
-                                        <label for="name" class="form-label"> Nome <sup class="text-danger"> * </sup></label>
+                                        <label for="name" class="form-label"> Nome <sup class="text-danger"> * </sup> </label>
 
                                         <input type="text" name="nome" id="name" class="form-control" placeholder="Seu Nome" required="">
                                     </div>
