@@ -525,15 +525,13 @@
 
                                 <?php
 
-                                    use PHPMailer\PHPMailer\PHPMailer;
-                                    use PHPMailer\PHPMailer\SMTP;
-                                    use PHPMailer\PHPMailer\Exception;
-                                    require "bibliotecas/vendor/autoload.php";
+                                    // use PHPMailer\PHPMailer\PHPMailer;
+                                    require __DIR__."/bibliotecas/vendor/autoload.php";
 
-                                    $phpmailer = new PHPMailer(true);
+                                    // $phpmailer = new PHPMailer(true);
                                     
                                     if ( isset($_POST["nome"]) && isset($_POST["email"]) && isset($_POST["mensagem"]) ) {
-                                    
+                            
                                         $nome = $_POST["nome"];
                                         $email = $_POST['email'];
                                         $mensagem = $_POST['mensagem'];
@@ -545,10 +543,15 @@
                                         $conteudo = new SendGrid\Content("text/html", "$mensagem");
                                         $mail = new SendGrid\Mail($de, $assunto, $para, $conteudo);
 
-                                        $chaveAPI = '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';
-                                        $sg = new \SendGrid($chaveAPI);
-
-                                        $resposta = $sg->client->mail()->send()->post($mail);
+                                        $chaveAPI = getenv("SG");
+                                        if ($chaveAPI) {
+                                            echo "Chave API encontrada: $chaveAPI";
+                                            $sg = new \SendGrid($chaveAPI);
+                                            $resposta = $sg->client->mail()->send()->post($mail);
+                                            echo "<em class='text-white'> Mensagem enviada com sucesso </em>";
+                                        } else {
+                                            echo "Variável de ambiente SENDGRID_API_KEY não encontrada ou vazia.";
+                                        }
 
                                         // Função pré-determinada
                                         // $para = "nosztcc@gmail.com";
@@ -580,7 +583,7 @@
 
                                         //     $phpmailer->send();
 
-                                        echo "<em class='text-white'> Mensagem enviada com sucesso </em>";
+                                        
 
                                         // } catch (Exception $e) { echo "<em class='text-white'> E-Mail não foi enviado. O erro foi: {$phpmailer->ErrorInfo}  </em>";  }
 
