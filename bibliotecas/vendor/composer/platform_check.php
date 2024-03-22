@@ -4,23 +4,19 @@
 
 $issues = array();
 
-if (!(PHP_VERSION_ID >= 50600)) {
-    $issues[] = 'Your Composer dependencies require a PHP version ">= 5.6.0". You are running ' . PHP_VERSION . '.';
-}
+if ( !(PHP_VERSION_ID >= 50600) ) { $issues[] = 'Suas dependências do Composer exigem uma versão do PHP ">= 5.6.0". Você está executando ' . PHP_VERSION . '.'; }
 
-if ($issues) {
-    if (!headers_sent()) {
-        header('HTTP/1.1 500 Internal Server Error');
-    }
+if ( $issues ) {
+
+    if (!headers_sent()) { header('HTTP/1.1 500 Erro Interno do Servidor'); }
+
     if (!ini_get('display_errors')) {
-        if (PHP_SAPI === 'cli' || PHP_SAPI === 'phpdbg') {
-            fwrite(STDERR, 'Composer detected issues in your platform:' . PHP_EOL.PHP_EOL . implode(PHP_EOL, $issues) . PHP_EOL.PHP_EOL);
-        } elseif (!headers_sent()) {
-            echo 'Composer detected issues in your platform:' . PHP_EOL.PHP_EOL . str_replace('You are running '.PHP_VERSION.'.', '', implode(PHP_EOL, $issues)) . PHP_EOL.PHP_EOL;
-        }
+
+        if (PHP_SAPI === 'cli' || PHP_SAPI === 'phpdbg') { fwrite(STDERR, 'O Composer detectou problemas na sua plataforma:' . PHP_EOL.PHP_EOL . implode(PHP_EOL, $issues) . PHP_EOL.PHP_EOL); } 
+        elseif (!headers_sent()) {  echo 'O Composer detectou problemas na sua plataforma:' . PHP_EOL.PHP_EOL . str_replace(' Você está executando  '.PHP_VERSION.'.', '', implode(PHP_EOL, $issues)) . PHP_EOL.PHP_EOL; }
+        
     }
-    trigger_error(
-        'Composer detected issues in your platform: ' . implode(' ', $issues),
-        E_USER_ERROR
-    );
+
+    trigger_error( 'O Composer detectou problemas na sua plataforma: ' . implode(' ', $issues), E_USER_ERROR );
+
 }

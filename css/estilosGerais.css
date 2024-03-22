@@ -718,7 +718,7 @@ b, strong { font-weight: var(--fw-negrito); }
   .avaliacoes-block-image-wrap,
   .avaliacoes-block-info { padding: 20px; }
 
-  .ods-block-image { display: flex; flex-direction: column; width: 75px; height: 75px; object-fit: cover; margin-right: 10px; margin: 15%; }
+  .ods-block-image { display: flex; flex-direction: row; width: 75px; height: 75px; object-fit: cover; margin-right: 10px; margin: 15%; }
 
 }
 

@@ -525,10 +525,7 @@
 
                                 <?php
 
-                                    // use PHPMailer\PHPMailer\PHPMailer;
-                                    require __DIR__."/bibliotecas/vendor/autoload.php";
-
-                                    // $phpmailer = new PHPMailer(true);
+                                    require __DIR__."bibliotecas/vendor/autoload.php";
                                     
                                     if ( isset($_POST["nome"]) && isset($_POST["email"]) && isset($_POST["mensagem"]) ) {
                             
@@ -536,7 +533,6 @@
                                         $email = $_POST['email'];
                                         $mensagem = $_POST['mensagem'];
 
-                                        // SendGrid
                                         $de = new SendGrid\Email(null, "$email");
                                         $assunto = "Mensagem de contato";
                                         $para = new SendGrid\Email(null, "nosztcc@gmail.com");
@@ -545,47 +541,13 @@
 
                                         $chaveAPI = getenv("SG");
                                         if ($chaveAPI) {
-                                            echo "Chave API encontrada: $chaveAPI";
+
                                             $sg = new \SendGrid($chaveAPI);
                                             $resposta = $sg->client->mail()->send()->post($mail);
                                             echo "<em class='text-white'> Mensagem enviada com sucesso </em>";
-                                        } else {
-                                            echo "Variável de ambiente SENDGRID_API_KEY não encontrada ou vazia.";
-                                        }
 
-                                        // Função pré-determinada
-                                        // $para = "nosztcc@gmail.com";
-                                        // $assunto = "Mensagem de contato";
-                                        // $conteudo = "$mensagem";
-                                        // $cabecario = "From: $email" . "\r\n" . "Reply-To: nosztcc@gmail.com";
-
-                                        // mail($para, $assunto, $conteudo, $cabecario);
-                                        
-                                        // PHPMailer
-                                        // try {
-
-                                        //     $phpmailer->SMTPDebug = SMTP::DEBUG_SERVER;
-                                        //     $phpmailer->isSMTP();
-                                        //     $phpmailer->Host = 'sandbox.smtp.mailtrap.io';
-                                        //     $phpmailer->SMTPAuth= true;
-                                        //     $phpmailer->Username = '2eab41a743a35e';
-                                        //     $phpmailer->Password = '********20e1';
-                                        //     $phpmailer->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
-                                        //     $phpmailer->Port = 2525;
-                                            
-                                        //     $phpmailer->setFrom('atlaskawan@gmail.com', 'Kawan');
-                                        //     $phpmailer->addAddress('atlaskawan@gmail.com', 'Kawan');
-
-                                        //     $phpmailer->isHTML(true);
-                                        //     $phpmailer->Subject = 'Mensagem de contato';
-                                        //     $phpmailer->Body    = '<b> $mensagem </b>';
-                                        //     $phpmailer->AltBody = '$mensagem';
-
-                                        //     $phpmailer->send();
-
-                                        
-
-                                        // } catch (Exception $e) { echo "<em class='text-white'> E-Mail não foi enviado. O erro foi: {$phpmailer->ErrorInfo}  </em>";  }
+                                        } 
+                                        else { echo "<em class='text-white'> Houve um erro no envio do e-mail </em>"; }
 
                                     }
 

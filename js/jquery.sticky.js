@@ -4,7 +4,7 @@
 
   var padrao = { espacamentoTopo: 0, espacamentoAbaixo: 0, classe: 'is-sticky', classeQuebra: 'sticky-wrapper', centro: false, largura: '', larguraQuebra: true, larguraResponsiva: false },
 
-    $window = $(window), $document = $(document), sticked = [], alturaJanela = $window.height(),
+  $window = $(window), $document = $(document), sticked = [], alturaJanela = $window.height(),
 
     scroller = function() {
 
@@ -45,7 +45,7 @@
 
             if ( s.topAtual === s.espacamentoTopo && s.topAtual > novoTop || s.topAtual === null && novoTop < s.espacamentoTopo ) {
               s.elementoClasse.trigger('sticky-bottom-reached', [s]);
-            } else if( s.topAtual !== null && novoTop === s.espacamentoTopo && s.topAtual < novoTop ) {
+            } else if ( s.topAtual !== null && novoTop === s.espacamentoTopo && s.topAtual < novoTop ) {
               s.elementoClasse.trigger('sticky-bottom-unreached', [s]);
             }
 
@@ -68,7 +68,7 @@
         var s = sticked[repeticao]; var novaLargura = null;
 
         if ( s.largura ) { if (s.larguraResponsiva === true) { novaLargura = $(s.largura).width(); } } 
-        else if( s.larguraQuebra ) { novaLargura = s.stickyWrapper.width(); }
+        else if ( s.larguraQuebra ) { novaLargura = s.stickyWrapper.width(); }
 
         if ( novaLargura != null ) { s.elementoClasse.css('width', novaLargura); }
 
@@ -108,8 +108,7 @@
 
       },
 
-      update: scroller,
-      unstick: function(options) {
+      update: scroller, unstick: function(options) {
 
         return this.each(function() { 
           
