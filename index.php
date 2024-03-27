@@ -525,7 +525,7 @@
 
                                 <?php
 
-                                    require __DIR__."bibliotecas/vendor/autoload.php";
+                                    require __DIR__."/bibliotecas/vendor/autoload.php";
                                     
                                     if ( isset($_POST["nome"]) && isset($_POST["email"]) && isset($_POST["mensagem"]) ) {
                             
